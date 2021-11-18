@@ -1,0 +1,35 @@
+.banner {
+  background: linear-gradient(#92d6e1 0%, #009ab2 0%, #75d1e0 100%);
+  width: 100vw;
+  height: 50vh;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+@keyframes cloud-anim {
+  0% {
+    transform: translateX(100px);
+  }
+  50% {
+    transform: translateX(-100px);
+  }
+  100% {
+    transform: translateX(100px);
+  }
+}
+
+@keyframes swing {
+  0% {
+    transform: rotate(0deg) translate(-50%, -50%);
+  }
+  33% {
+    transform: rotate(10deg) translate(-50%, -50%);
+  }
+  66% {
+    transform: rotate(-10deg) translate(-50%, -50%);
+  }
+  100% {
+    transform: rotate(0deg) translate(-50%, -50%);
+  }
+}

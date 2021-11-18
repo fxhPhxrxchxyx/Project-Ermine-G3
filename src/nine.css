@@ -1,0 +1,31 @@
+.contain2 {
+  margin: 0;
+  height: 120vh;
+  background-color: #96ca4c;
+  position: relative;
+  z-index: -1;
+  background-position: center bottom;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  padding: 0;
+  margin: 0;
+}
+
+.moral {
+  position: absolute;
+  top: 50%;
+  left: 51.5%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  width: 1200px;
+  height: 500px;
+  background-color: #fef689;
+  text-align: center;
+  border-radius: 90px;
+}

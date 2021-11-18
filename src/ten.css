@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@1&display=swap");
+.contain3 {
+  margin: 0;
+  height: 120vh;
+  background-color: #a5dae2;
+  position: relative;
+  z-index: -1;
+  background-position: center bottom;
+  padding: 0;
+  margin: 0;
+}
+@font-face {
+  font-family: Bunblegum;
+  src: url(./Bubblegum.ttf);
+  font-weight: bold;
+}
+h1 {
+  padding: 5%;
+
+  font-family: Bunblegum;
+  text-shadow: 1px 2px 8px black;
+  margin: 0;
+  text-align: center;
+  color: black;
+  font-size: 150px;
+}
+
+.grid-container {
+  /* margin: 5em; */
+  top: 10%;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  padding: 0px;
+}
+.grid-item {
+  text-align: center;
+  font-size: 34px;
+  z-index: 99;
+  padding-bottom: 15em;
+}
+.grid-container2 {
+  grid-template-columns: auto auto auto auto auto auto;
+  display: grid;
+}
+.grid-item1 {
+  text-align: center;
+  font-size: 34px;
+  z-index: 99;
+}
+
+#gridthing {
+  width: "97vw" !important;
+  display: "grid" !important;
+  row-gap: 10px;
+  column-gap: 10px;
+  grid-template-columns: repeat(6, 1fr);
+}
+.subText {
+  font-size: 1.3rem;
+}
+
+@media (max-width: 576px) {
+  #gridthing {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .subText {
+    font-size: 0.5rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  #gridthing {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .subText {
+    font-size: 0.75rem;
+  }
+}
+
+h3,
+h2 {
+  font-family: Bunblegum;
+}
+h3 {
+  font-size: 28px;
+  color: #e25142;
+}
+h2 {
+  color: #e25142;
+}
+
+.member:hover {
+  filter: drop-shadow(1px 2px 20px #fdc401);
+  cursor: pointer;
+  transition: 0.3s;
+}
+.onhold {
+  transform: scale(1);
+}
+.onhold:hover {
+  transform: scale(1.2);
+}
+
+#gridthing a {
+  color: inherit;
+  text-decoration: none;
+}
